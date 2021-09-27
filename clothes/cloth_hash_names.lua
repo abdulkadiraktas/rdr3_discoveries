@@ -60,7 +60,7 @@
 --			"beards_mustache"     	hex unsigned: 0xECC8B25A  	dec unsigned: 3972575834  	dec signed: -322391462
 --  		"gunbelt_accs"			hex unsigned: 0xF1542D11 	dec unsigned: 4048825617 	dec signed: -246141679
 --  		"hair_accessories"		hex unsigned: 0x8E84A2AA 	dec unsigned: 2391057066 	dec signed: -1903910230
-
+-- 			"dresses" 				hex unsigned: 0xA2926F9B 	dec unsigned: 2727505819 	dec signed: -1567461477
 --  
 --  	HORSES:
 --  

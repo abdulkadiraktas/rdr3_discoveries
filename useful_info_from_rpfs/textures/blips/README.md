@@ -2,6 +2,7 @@
 
 ```lua
 local function addBlipForCoords(blipname,bliphash,coords)
+	-- 0xB04092F8  -- mission bölümü
 	--blipHash  = {
 	--	142522696, -not work
 	--	1664425300,
