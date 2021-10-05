@@ -16377,4 +16377,5 @@ local cloth_hash_names = {
 	{hashname="",category_hashname="",ped_type="male",is_multiplayer=true,category_hash=0xF8016BCA,hash=0x67FDCA02,hash_dec_signed=1744685570,category_hash_dec_signed=-134124598},
 	{hashname="",category_hashname="",ped_type="male",is_multiplayer=true,category_hash=0xF8016BCA,hash=0xF608E1D1,hash_dec_signed=-167190063,category_hash_dec_signed=-134124598},
 	{hashname="",category_hashname="",ped_type="male",is_multiplayer=true,category_hash=0xF8016BCA,hash=0xFF15D2B5,hash_dec_signed=-15347019,category_hash_dec_signed=-134124598},
+
 }
