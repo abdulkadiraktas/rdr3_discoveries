@@ -125,7 +125,6 @@ Visible changes can only be seen with few "script" blackboards. It seems Rocksta
 | bool            |                    | SpawnMissionIntro                       |
 | bool            |                    | Spooked                                 |
 | bool            |                    | Tracking                                |
-| bool            |                    | uParam0                                 |
 | bool            | script             | Bewildered                              |
 | bool            | script             | CarryBagAndersLeft                      |
 | bool            | script             | CarryBagAndersRight                     |
