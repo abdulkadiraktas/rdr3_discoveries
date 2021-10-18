@@ -33,7 +33,7 @@
 ```
 
 
-<h2> Some Hashes <h2>
+<h2> Some Hashes </h2>
 
 APPLY_LOTION_BOTH_HANDS	0x672FE666
 APPLY_LOTION_LEFT_HAND	0x552BD685
