@@ -151,4 +151,6 @@ local kit_emotes = {
 	"KIT_EMOTE_TWIRL_GUN_VAR_B",                   --0x4125C878        1092995192
 	"KIT_EMOTE_TWIRL_GUN_VAR_C",                   --0x4F2BE484        1328276612
 	"KIT_EMOTE_TWIRL_GUN_VAR_D",                   --0x288A1741        680138561
+	"KIT_EMOTE_TWIRL_GUN_VAR_E",                   --0x36D7B3DC        920105948    --new
+	"KIT_EMOTE_TWIRL_GUN_VAR_F",                   --0x8A415AAE        2319538862   --new
 }
