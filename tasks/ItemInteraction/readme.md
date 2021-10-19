@@ -31,7 +31,7 @@
 
 ```
 
-<h2> Some Hashes </h2>
+<h2> Some examples </h2>
 
 | prop | propId | itemInteractionState | itemInteractionState hash |
 | ------------- | - |- |- |
