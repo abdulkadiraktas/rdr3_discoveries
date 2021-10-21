@@ -1,7 +1,7 @@
 - [1. Item Interaction Types](#1-item-interaction-types)
 - [2. Example](#2-example)
 - [3. Dict & Prop](#3-dict--prop)
-- [4. item_interaction_state_name & item_interaction_propId](#4-iteminteractionstate--propid--1)
+- [4. item_interaction_state_name & item_interaction_propId](#4-item_interaction_state_name--item_interaction_propid)
  
 ## 1. Item Interaction Types
 ```lua  
