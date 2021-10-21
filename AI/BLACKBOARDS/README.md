@@ -20,9 +20,10 @@ Visible changes can only be seen with few "script" blackboards. It seems Rocksta
 	-- last parameter is duration (in frames, -1 = forever)
 	Citizen.InvokeNative(0xA762C9D6CF165E0D, PlayerPedId(), "BodyPartChained", "Legs", 5000)  -- apply "legschained" walkstyle for 5000 frames (~50 seconds)
 
-	-- SET_PED_BLACKBOARD_INT ()
+	-- SET_PED_BLACKBOARD_INT
 	-- last parameter is duration (in frames, -1 = forever)
-	Citizen.InvokeNative(0x5F53010C4C3F6BAF, PlayerPedId(), "prsn_ilo_time", N_0x2e036f0480b8bf02(), -1)  --
+	-- in this example the native N_0x2e036f0480b8bf02() returns the amount of time elapsed since joining game
+	Citizen.InvokeNative(0x5F53010C4C3F6BAF, PlayerPedId(), "prsn_ilo_time", N_0x2e036f0480b8bf02(), -1)
 
 ```
 
