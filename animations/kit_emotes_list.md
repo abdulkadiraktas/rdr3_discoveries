@@ -16,9 +16,45 @@
 -- if u want use "KIT_EMOTE_TWIRL_GUN" these use this code
 -- Citizen.InvokeNative(0xB31A277C1AC7B7FF, PlayerPedId(), 4, 1, GetHashKey("KIT_EMOTE_TWIRL_GUN"), 1, 1, 0, 0)
 --
--- but "KIT_EMOTE_TWIRL_GUN_VAR_*" these variation still not working
---
 -- 
+--
+-- From Maniac#7878
+
+--local emote = `KIT_EMOTE_TWIRL_GUN` or `KIT_EMOTE_TWIRL_GUN_DUAL`
+--RegisterCommand("spin", function(source, args)
+--    local emote_variation = tonumber( args[1] )
+--    if ( emote_variation ) then
+--        local ped = PlayerPedId()--
+--        Citizen.InvokeNative(0xCBCFFF805F1B4596, ped, emote)
+--        Citizen.InvokeNative(0xB31A277C1AC7B7FF, ped, 4, 1, Citizen.InvokeNative(0x2C4FEC3D0EFA9FC0, ped), true, false, false, false, false)
+--        Citizen.InvokeNative(0x01F661BB9C71B465, ped, 4, N_0xf4601c1203b1a78d(emote, emote_variation))
+--        Citizen.InvokeNative(0x408CF580C5E96D49, ped, 4)--
+--    end
+--end)
+--Example Code: /spin *variation* 0-6
+
+	| Emote                   | Variation
+
+	|KIT_EMOTE_TWIRL_GUN     |     -982117008
+	|KIT_EMOTE_TWIRL_GUN     |     551026234
+	|KIT_EMOTE_TWIRL_GUN     |     -2052623759
+	|KIT_EMOTE_TWIRL_GUN     |     1558660523
+	|KIT_EMOTE_TWIRL_GUN     |     -1583776004
+	|KIT_EMOTE_TWIRL_GUN     |     -2141290034
+	|KIT_EMOTE_TWIRL_GUN_LEFT_HOLSTER     |     -982117008
+	|KIT_EMOTE_TWIRL_GUN_LEFT_HOLSTER     |     551026234
+	|KIT_EMOTE_TWIRL_GUN_LEFT_HOLSTER     |     -2052623759
+	|KIT_EMOTE_TWIRL_GUN_LEFT_HOLSTER     |     1558660523
+	|KIT_EMOTE_TWIRL_GUN_LEFT_HOLSTER     |     -1583776004
+	|KIT_EMOTE_TWIRL_GUN_LEFT_HOLSTER     |     -2141290034
+	|KIT_EMOTE_TWIRL_GUN_DUAL     |     -982117008
+	|KIT_EMOTE_TWIRL_GUN_DUAL     |     551026234
+	|KIT_EMOTE_TWIRL_GUN_DUAL     |     -2052623759
+	|KIT_EMOTE_TWIRL_GUN_DUAL     |     1558660523
+	|KIT_EMOTE_TWIRL_GUN_DUAL     |     -1583776004
+	|KIT_EMOTE_TWIRL_GUN_DUAL     |     -2141290034
+
+
 -- ============================================================================
 -- ============================================================================
 -- ============================================================================
