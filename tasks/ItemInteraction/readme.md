@@ -5,25 +5,25 @@
  
 ## 1. Item Interaction Types
 ```lua  
-  --TaskItemInteraction(
-  --	ped, --[[ Ped ]]
-  --	inventory_item_hash, --[[ Hash ]]
-  --	item_interaction_state_name, --[[ Hash ]]
-  --	p3, --[[ integer ]]
-  --	item_interaction_flags, --[[ integer ]]
-  --	p5 --[[ number ]]
-  --)
-  --
-  --TaskItemInteraction_2(
-  --	ped, --[[ Ped ]]
-  --	inventory_item_hash, --[[ Hash ]]
-  --	object_id, --[[ Object ]]
-  --	item_interaction_propId_hash, --[[ Hash ]]
-  --	item_interaction_state_name_hash, --[[ Hash ]]
-  --	p5, --[[ integer ]]
-  --	item_interaction_flags, --[[ Any ]]
-  --	p7, --[[ number ]]
-  --)
+  TaskItemInteraction(
+  	ped, --[[ Ped ]]
+  	inventory_item_hash, --[[ Hash ]]
+  	item_interaction_state_name, --[[ Hash ]]
+  	p3, --[[ integer ]]
+  	item_interaction_flags, --[[ integer ]]
+  	p5 --[[ number ]]
+  )
+  
+  TaskItemInteraction_2(
+  	ped, --[[ Ped ]]
+  	inventory_item_hash, --[[ Hash ]]
+  	object_id, --[[ Object ]]
+  	item_interaction_propId_hash, --[[ Hash ]]
+  	item_interaction_state_name_hash, --[[ Hash ]]
+  	p5, --[[ integer ]]
+  	item_interaction_flags, --[[ Any ]]
+  	p7, --[[ number ]]
+  )
 ```
 ## 2. Example
 
