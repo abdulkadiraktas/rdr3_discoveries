@@ -5,30 +5,30 @@
  
 ## 1. Item Interaction Types
 ```lua  
-  --TaskItemInteraction(
-  --	ped, --[[ Ped ]]
-  --	inventory_item_hash, --[[ Hash ]]
-  --	item_interaction_state_name, --[[ Hash ]]
-  --	p3, --[[ integer ]]
-  --	item_interaction_flags, --[[ integer ]]
-  --	p5 --[[ number ]]
-  --)
-  --
-  --TaskItemInteraction_2(
-  --	ped, --[[ Ped ]]
-  --	inventory_item_hash, --[[ Hash ]]
-  --	object_id, --[[ Object ]]
-  --	item_interaction_propId_hash, --[[ Hash ]]
-  --	item_interaction_state_name_hash, --[[ Hash ]]
-  --	p5, --[[ integer ]]
-  --	item_interaction_flags, --[[ Any ]]
-  --	p7, --[[ number ]]
-  --)
+  TaskItemInteraction(
+  	ped, --[[ Ped ]]
+  	inventory_item_hash, --[[ Hash ]]
+  	item_interaction_state_name, --[[ Hash ]]
+  	p3, --[[ integer ]]
+  	item_interaction_flags, --[[ integer ]]
+  	p5 --[[ number ]]
+  )
+  
+  TaskItemInteraction_2(
+  	ped, --[[ Ped ]]
+  	inventory_item_hash, --[[ Hash ]]
+  	object_id, --[[ Object ]]
+  	item_interaction_propId_hash, --[[ Hash ]]
+  	item_interaction_state_name_hash, --[[ Hash ]]
+  	p5, --[[ integer ]]
+  	item_interaction_flags, --[[ Any ]]
+  	p7, --[[ number ]]
+  )
 ```
 ## 2. Example
 
 ```lua 
-TaskItemInteraction(PlayerPedId(), GetHashKey("DOCUMENT_PLAYER_JOURNAL"), GetHashKey("JOURNAL_USE"), 1, 0, 0)
+TaskItemInteraction(PlayerPedId(), GetHashKey("KIT_HANDHELD_CATALOG"), GetHashKey("MP_CATALOGUE_UNHOLSTER_S1"), 1, 0, -1)
 TaskItemInteraction_2(PlayerPedId(), GetHashKey("CONSUMABLE_COFFEE"), object_id, GetHashKey("P_MUGCOFFEE01X_PH_R_HAND"), GetHashKey("DRINK_COFFEE_HOLD"), 1, 0, -1) -- this native requires an object
 ```
 
