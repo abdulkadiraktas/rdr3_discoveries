@@ -347,6 +347,47 @@ void _SET_PED_FACE_FEATURE(Ped ped, int index, float value);
 */
 
 Known indexes:
+0x84D6 - head width
+0x3303 - eyebrow height
+0x2FF9 - eyebrow width
+0x4AD1 - eyebrow depth
+0xC04F - ears width
+0xB6CE - ears angle
+0x2844 - ears height
+0xED30 - earlobe size
+0x6A0B - cheekbones height
+0xABCF - cheekbones width
+0x358D - cheekbones depth
+0x8D0A - jaw height
+0xEBAE - jaw width
+0x1DF6 - jaw depth
+0x3C0F - chin height
+0xC3B2 - chin width
+0xE323 - chin depth
+0x8B2B - eyelid height
+0x1B6B - eyelid width
+0xEE44 - eyes depth
+0xD266 - eyes angle
+0xA54E - eyes distance
+0xDDFB - eyes height
+0x6E7F - nose width
+0x3471 - nose size
+0x03F5 - nose height
+0x34B1 - nose angle
+0xF156 - nose curvature
+0x561E - nostrils distance
+0xF065 - mouth width
+0xAA69 - mouth depth
+0x7AC3 - mouth x pos
+0x410D - mouth y pos
+0x1A00 - upper lip height
+0x91C1 - upper lip width
+0xC375 - upper lip depth
+0xBB4D - lower lip height
+0xB0B0 - lower lip width
+0x5D16 - lower lip depth
+0xA28B - horse gender (0.0 = female, 1.0 = male)
+
 https://pastebin.com/9jb88FXW
 
 Usage example:
