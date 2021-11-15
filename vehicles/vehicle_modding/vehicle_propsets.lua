@@ -15,6 +15,60 @@
 
 --------------------------------------------------------------------------------
 
+--// https://vespura.com/doc/natives/#_0xD80FAF919A2E56EA
+--//
+--// public void _ACTIVATE_PROPSET_ON_VEHICLE(Vehicle vehicle, Hash propset)
+--
+--Dictionary<string, uint> PropGroups = new Dictionary<string, uint> {
+	--["pg_re_armsdeal01x"] = 0xB7DB6DA7,
+	--["pg_re_checkpoint01x"] = 0xA6597D73,
+	--["pg_re_checkpoint02x_food"] = 0x4CF7280B,
+	["pg_re_crashedwagondebristrail01x"] = 0xFE188BC5,
+	["pg_re_dustersgang01x"] = 0xD1A6513F,
+	["pg_re_exconfederategang_noammo01x"] = 0x5353BAE8,
+	["pg_re_fishing01x"] = 0x42109135,
+	--["pg_re_fleeingfamily01x"] = 0x22B8797C,
+	--["pg_re_moonshinecampgroupcart01x"] = 0x3AC590FD,
+	--["pg_re_odriscollwagon01x"] = 0xC3BE42BB,
+	--["pg_re_savagewagon01x"] = 0x35DEDAC3,
+	["pg_re_spookedhorse01x"] = 0x4244DDEB,
+	--["pg_re_supplydelivery_gsmith01x"] = 0x3CCEB844,
+	--["pg_re_supplydelivery01x"] = 0xBE99FB24,
+	--["pg_re_trainholdup01x"] = 0xE2FD95D3,
+	["pg_re_wagonlift01x"] = 0x204E4ABA,
+	["pg_re_weaponthreat01x"] = 0x232271F0,
+	["pg_re_wildman01x"] = 0xCE18E540,
+	--["pg_mission_ammodeal"] = 0x51038076,
+	--["pg_mission_bra1_wagon"] = 0x6A48BB59,
+	--["pg_mission_brt1_jump01x"] = 0xE1A5CB17,
+	--["pg_mission_brt1_tomansion01x"] = 0x6AE80AD1,
+	--["pg_mission_brt2"] = 0xDD5D9638,
+	--["pg_mission_brt2_escape01x"] = 0xE2DCC8AE,
+	--["pg_mission_cornwall1_01x"] = 0xE5512C02,
+	--["pg_mission_feud1_haybales01x"] = 0xAAC40FC,
+	--["pg_mission_marston1_supplies01x"] = 0x4DDD3EF3,
+	--["pg_mission_marston1_supplies02x"] = 0xFB1F4FA0,
+	--["pg_mission_marston2_postoffice01x"] = 0xC5F47022,
+	--["pg_mission_marston7_lumber01x"] = 0xEBF664DC,
+	--["pg_mission_marston7_lumber02x"] = 0x274ACFC,
+	--["pg_mission_marston7_lumber03x_doneloading"] = 0xC31C4EE9,
+	["pg_mission_marston7_lumber04x_groundstack"] = 0x83CFE3ED,
+	--["pg_mission_moonshinesupplies"] = 0xE9A3AC69,
+	--["pg_mission_mud1_jackwagon01x"] = 0x7E6FD57E,
+	--["pg_mission_mud1_wagon01x"] = 0xB62CEA16,
+	--["pg_mission_mud1_wagon02x"] = 0xEF865B68,
+	--["pg_mission_mud1_wagon03x"] = 0xD2BA20F0,
+	--["pg_mission_mud4_strauswag01x"] = 0x58DA7516,
+	--["pg_mission_mud4_strauswag02x"] = 0xC28A4964,
+	--["pg_mission_native2_01x"] = 0x8F3DE86A,
+	["pg_mission_tntraft01x"] = 0xB642E3EF,
+	--["pg_mission_tntwagon01x"] = 0x8A85012F,
+	--["pg_mission_trainrob4_wagon02x_dynamite"] = 0xF6AA1E52,
+	--["pg_mission_utp2_coachlockbox"] = 0xCD4368AC,
+	["pg_mission_winter4_car3"] = 0x98CCFDF1,
+	["pg_mission_winter4_car7"] = 0xADFE284F
+--};
+
 
 
 local vehicle_propsets = {
