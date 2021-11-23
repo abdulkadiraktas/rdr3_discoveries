@@ -12,3 +12,8 @@
 ## CExtensionDefSwayableEffect
 
 **SwayableEffect** is ability of an entity to react to wind and collisions with other objects.
+
+
+## CExtensionDefAudioEmitter
+
+**AudioEmitter** is ability of an entity to emit sounds (clock ticks, steam noise, buzzing insects, and so on).

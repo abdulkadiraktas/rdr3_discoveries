@@ -1,5 +1,5 @@
-// 0x0556C784FA056628
 ```c++
+// 0x0556C784FA056628
 int _Create_Stream(char* streamName, char* soundSet);
 ```
 
