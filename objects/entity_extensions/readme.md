@@ -17,3 +17,12 @@
 ## CExtensionDefAudioEmitter
 
 **AudioEmitter** is ability of an entity to emit sounds (clock ticks, steam noise, buzzing insects, and so on).
+
+## CExtensionDefBuoyancy
+
+**Buoyancy** is ability of an entity to float in the water and not sink. 
+
+
+## CExtensionDefExplosionEffect
+
+**ExplosionEffect** is ability of an entity to emit explosion effect when damaged. 
