@@ -26,3 +26,23 @@
 ## CExtensionDefExplosionEffect
 
 **ExplosionEffect** is ability of an entity to emit explosion effect when damaged. 
+
+
+## CExtensionDefLadder
+
+**Ladder** extension allows peds to climb this entity.
+
+
+## CExtensionDefLightEffect
+
+**LightEffect** extension is ability of an entity to emit light. 
+
+With entities that have lightEffect extension, you can use the "light manipulation" natives:<br>
+	_SET_LIGHT_INTENSITY_FOR_OBJECT		(0xF49574E2332A8F06)<br>
+	_SET_LIGHT_SCATTERING_DISABLED_FOR_OBJECT	(0x04D1D4E411CE52D0)<br>
+	_SET_LIGHT_TRANSLUCENCY_FOR_OBJECT	(0x63E39F09310F481F)<br>
+	etc...<br>
+
+## CExtensionDefParticleEffect
+
+**ParticleEffect** is ability of an entity to emit particle effect when it interacts with peds, is damaged or destroyed, etc...
