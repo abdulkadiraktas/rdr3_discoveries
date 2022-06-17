@@ -1,6 +1,5 @@
 ## Animal Interaction Types
 
-	
 ## Example
 
 ```lua
@@ -10,11 +9,11 @@
 	-- p1 - target ped id
 	-- p2 - interactionTypeHash
 	-- p3 - object model to use for interaction (0 if use nothing)
-	-- p4 -  1 = skip idle animation clip 
-	
+	-- p4 -  1 = skip idle animation clip
+
 	-- ped injected the horse with a syringe :
 	Citizen.InvokeNative(0xCD181A959CFDD7F4, PlayerPedId(), horse_ped_id, GetHashKey("Interaction_Injection_Quick"), GetHashKey("p_cs_syringe01x"), 1)
-	
+
 	-- brush horse
 	Citizen.InvokeNative(0xCD181A959CFDD7F4, PlayerPedId(), horse_ped_id, GetHashKey("Interaction_Brush"), GetHashKey("p_brushHorse02x"), 1)
 
@@ -56,15 +55,27 @@
 	Interaction_HolsterRightPistol_BothHands
 	Interaction_HolsterRightPistol_DrawRightPistol
 	Interaction_HolsterRightPistol_DrawRightPistol_BothHands
+	Interaction_Idle
 	Interaction_Injection_Quick
 	Interaction_LootSaddleBags
 	Interaction_Ointment
+	Interaction_PatDownEarlyCounterFailMelee		(target ped is human)
+	Interaction_PatDownEarlyCounterFailPistol		(target ped is human)
+	Interaction_PatDownEarlyCounterFailPush		(target ped is human)
+	Interaction_PatDownQuickKillGun1		(target ped is human)
+	Interaction_PatDownQuickKillGun2		(target ped is human)
+	Interaction_PatDownQuickKillGun3		(target ped is human)
+	Interaction_PatDownQuickKillGun4		(target ped is human)
+	Interaction_PatDownSuccess		(target ped is human)
+	Interaction_PatDownTarget		(target ped is human)
+	Interaction_PickupPlant
 	Interaction_PositiveLong
 	Interaction_PositiveLong1H
 	Interaction_PositiveLongAgitated
 	Interaction_PositiveShort
 	Interaction_PositiveShort1H
 	Interaction_PositiveShortAgitated
+	Interaction_PositiveShortHorseBreaking
 	Interaction_RemoveArmadillo
 	Interaction_RemoveBadger
 	Interaction_RemoveCaliforniaCondor
