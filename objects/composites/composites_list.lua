@@ -95,6 +95,8 @@ local composite_list = {
 	"COMPOSITE_LOOTABLE_GOLDEN_CURRANT_DEF",                                      -- 0xC8B01F47
 	"COMPOSITE_LOOTABLE_GOLDEN_CURRANT_INTERACTABLE_DEF",                         -- 0xE05690E4
 	"COMPOSITE_LOOTABLE_GOOSE_EGG_4_DEF",                                         -- 0xA9F3EBD1
+	"COMPOSITE_LOOTABLE_HARRIETUM_OFFICINALIS_DEF",                               -- 0xCDF5AE40
+	"COMPOSITE_LOOTABLE_HARRIETUM_OFFICINALIS_INTERACTABLE_DEF",                  -- 0xA41F065A
 	"COMPOSITE_LOOTABLE_HUMMINGBIRD_SAGE_DEF",                                    -- 0x2781F602
 	"COMPOSITE_LOOTABLE_HUMMINGBIRD_SAGE_INTERACTABLE_DEF",                       -- 0xCEA69D80
 	"COMPOSITE_LOOTABLE_INDIAN_TOBACCO_DEF",                                      -- 0x7C9228C5
@@ -134,6 +136,7 @@ local composite_list = {
 	"COMPOSITE_LOOTABLE_VIOLET_SNOWDROP_DEF",                                     -- 0x1F3E2AA9
 	"COMPOSITE_LOOTABLE_VIOLET_SNOWDROP_INTERACTABLE_DEF",                        -- 0xCB9DDAC8
 	"COMPOSITE_LOOTABLE_VULTURE_EGG_DEF",                                         -- 0xAD8C6F2D
+	"COMPOSITE_LOOTABLE_VULTURE_EGG_VARIATION_01_DEF",                            -- 0x6553CA97
 	"COMPOSITE_LOOTABLE_WILD_CARROT_DEF",                                         -- 0x22C2756C
 	"COMPOSITE_LOOTABLE_WILD_CARROT_INTERACTABLE_DEF",                            -- 0x5A76F8DD
 	"COMPOSITE_LOOTABLE_WILD_FEVERFEW_DEF",                                       -- 0xC528406F
