@@ -1,6 +1,7 @@
 # rdr3_discoveries. -rm
 
 ![Repo Boyutu](https://img.shields.io/github/repo-size/abdulkadiraktas/rdr3_discoveries)
+[![pages-build-deployment](https://github.com/abdulkadiraktas/rdr3_discoveries/actions/workflows/pages/pages-build-deployment/badge.svg?branch=master)](https://github.com/abdulkadiraktas/rdr3_discoveries/actions/workflows/pages/pages-build-deployment)
 
 Some interesting things from Red Dead Redemption 2 (RDR2) with Moonshine, Naturalist and Bounty Hunters DLCs.
 
