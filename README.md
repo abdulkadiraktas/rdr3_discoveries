@@ -5,40 +5,93 @@
 Some interesting things from Red Dead Redemption 2 (RDR2) with Moonshine, Naturalist and Bounty Hunters DLCs.
 
 Links :
-<a href='AI'>AI</a>
 
-<a href='animations'>animations</a>
 
-<a href='audio'>audio</a>
+# rdr3_discoveries.
 
-<a href='boneNames'>boneNames</a>
+Some interesting things from Red Dead Redemption 2 (RDR2) with Moonshine, Naturalist and Bounty Hunters DLCs.
 
-<a href='clothes'>clothes</a>
+Links :
 
-<a href='Controls'>Controls</a>
-
-<a href='discoveredNatives'>discoveredNatives</a>
-
-<a href='doorHashes'>doorHashes</a>
-
-<a href='graphics'>graphics</a>
-
-<a href='imaps'>imaps</a>
-
-<a href='interiors'>interiors</a>
-
-<a href='objects'>objects</a>
-
-<a href='peds'>peds</a>
-
-<a href='peds_customization'>peds_customization</a>
-
-<a href='tasks'>tasks</a>
-
-<a href='useful_info_from_rpfs'>useful_info_from_rpfs</a>
-
-<a href='vehicles'>vehicles</a>
-
-<a href='weapons'>weapons</a>
-
-<a href='zones'>zones</a>
+- [AI](./AI)
+  - [ANIMAL_TUNING_BOOL_PARAMS](./AI/ANIMAL_TUNING_BOOL_PARAMS)
+  - [ANIMAL_TUNING_FLOAT_PARAMS](./AI/ANIMAL_TUNING_FLOAT_PARAMS)
+  - [BLACKBOARDS](./AI/BLACKBOARDS)
+  - [CARRYING_FLAGS](./AI/CARRYING_FLAGS)
+  - [COMBAT_ACTION_DISABLE_FLAGS](./AI/COMBAT_ACTION_DISABLE_FLAGS)
+  - [COMBAT_ATTRIBUTES](./AI/COMBAT_ATTRIBUTES)
+  - [COMBAT_FLOATS](./AI/COMBAT_FLOATS)
+  - [COMBAT_STYLES](./AI/COMBAT_STYLES)
+  - [CPED_CONFIG_FLAGS](./AI/CPED_CONFIG_FLAGS)
+  - [CPED_RESET_FLAGS](./AI/CPED_RESET_FLAGS)
+  - [ENTITY_PROOFS](./AI/ENTITY_PROOFS)
+  - [EVENTS](./AI/EVENTS)
+  - [FLEE_ATTRIBUTES](./AI/FLEE_ATTRIBUTES)
+  - [LASSO_HOGTIE_FLAG](./AI/LASSO_HOGTIE_FLAG)
+  - [LOOTING_FLAGS](./AI/LOOTING_FLAGS)
+  - [PLAYER_RESET_FLAGS](./AI/PLAYER_RESET_FLAGS)
+  - [RAGDOLL_BLOCKING_FLAGS](./AI/RAGDOLL_BLOCKING_FLAGS)
+  - [TRANSPORT_CONFIG_FLAGS](./AI/TRANSPORT_CONFIG_FLAGS)
+- [animations](./animations)
+  - [ingameanims](./animations/ingameanims)
+  - [megadictanims](./animations/megadictanims)
+  - [scenarios](./animations/scenarios)
+- [audio](./audio)
+  - [audio_banks](./audio/audio_banks)
+  - [audio_flags](./audio/audio_flags)
+  - [create_stream](./audio/create_stream)
+  - [frontend_soundsets](./audio/frontend_soundsets)
+  - [music_events](./audio/music_events)
+  - [soundsets](./audio/soundsets)
+- [boneNames](./boneNames)
+- [clothes](./clothes)
+- [Controls](./Controls)
+- [discoveredNatives](./discoveredNatives)
+- [doorHashes](./doorHashes)
+- [graphics](./graphics)
+  - [animpostfx](./graphics/animpostfx)
+  - [explosions](./graphics/explosions)
+  - [HUD](./graphics/HUD)
+    - [cursor_sprites](./graphics/HUD/cursor_sprites)
+    - [hud_presets](./graphics/HUD/hud_presets)
+    - [prompts](./graphics/HUD/prompts)
+      - [prompt_types](./graphics/HUD/prompts/prompt_types)
+  - [markers](./graphics/markers)
+  - [minimap](./graphics/minimap)
+    - [minimapObjects](./graphics/minimap/minimapObjects)
+    - [radar](./graphics/minimap/radar)
+    - [wanted_regions](./graphics/minimap/wanted_regions)
+  - [ptfx](./graphics/ptfx)
+  - [timecycles](./graphics/timecycles)
+  - [veg_modifier](./graphics/veg_modifier)
+- [imaps](./imaps)
+- [interiors](./interiors)
+  - [interior_sets](./interiors/interior_sets)
+- [objects](./objects)
+  - [composites](./objects/composites)
+  - [entity_extensions](./objects/entity_extensions)
+- [peds](./peds)
+- [peds_customization](./peds_customization)
+- [tasks](./tasks)
+  - [ItemInteraction](./tasks/ItemInteraction)
+  - [TASK_ANIMAL_INTERACTION](./tasks/TASK_ANIMAL_INTERACTION)
+  - [TASK_HORSE_ACTION](./tasks/TASK_HORSE_ACTION)
+- [useful_info_from_rpfs](./useful_info_from_rpfs)
+  - [blip_modifiers](./useful_info_from_rpfs/blip_modifiers)
+  - [blip_styles](./useful_info_from_rpfs/blip_styles)
+  - [colours](./useful_info_from_rpfs/colours)
+  - [inventory_items](./useful_info_from_rpfs/inventory_items)
+  - [textures](./useful_info_from_rpfs/textures)
+    - [blips](./useful_info_from_rpfs/textures/blips)
+      - [images](./useful_info_from_rpfs/textures/blips/images)
+        - [blips](./useful_info_from_rpfs/textures/blips/images/blips)
+    - [blips_mp](./useful_info_from_rpfs/textures/blips_mp)
+      - [images](./useful_info_from_rpfs/textures/blips_mp/images)
+        - [blips_mp](./useful_info_from_rpfs/textures/blips_mp/images/blips_mp)
+    - [inventory_items](./useful_info_from_rpfs/textures/inventory_items)
+      - [images](./useful_info_from_rpfs/textures/inventory_items/images)
+        - [inventory_items](./useful_info_from_rpfs/textures/inventory_items/images/inventory_items)
+        - [inventory_items_tu](./useful_info_from_rpfs/textures/inventory_items/images/inventory_items_tu)
+        - [multiwheel_weapons](./useful_info_from_rpfs/textures/inventory_items/images/multiwheel_weapons)
+        - [satchel_textures](./useful_info_from_rpfs/textures/inventory_items/images/satchel_textures)
+    - [item_textures](./useful_info_from_rpfs/textures/item_textures)
